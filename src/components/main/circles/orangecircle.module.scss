@@ -1,0 +1,25 @@
+
+
+.orange {
+    width: 278px;
+    height: 278px;
+    position: absolute;
+    opacity: 0.3;
+    border-radius: 50%;
+    filter: blur(80px);
+    background: linear-gradient(135deg, #d83b69, #d55629 50%, #fbd141);
+    top: -10%;
+    z-index: 0;
+}
+
+.redcircle {
+    position: absolute;
+    width: 650px;
+    height: 650px;
+    opacity: 0.3;
+    filter: blur(250px);
+    background-color: #FB2D00;
+    border-radius: 50%;
+    right: 0;    
+    z-index: 0;
+}

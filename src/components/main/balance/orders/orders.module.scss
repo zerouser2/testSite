@@ -1,0 +1,25 @@
+.orders {
+    position: relative;
+    width: 30%;
+    padding: 42px 42px 0 0;
+    color: #fff;
+    z-index: 1;
+}
+
+.money {
+    margin-top: 17px;
+}
+
+.order {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+    gap: 5%;
+}
+
+
+@media (max-width: 930px) and (min-width: 864px) {
+    .orders {
+        margin-left: 4%;
+    }
+}

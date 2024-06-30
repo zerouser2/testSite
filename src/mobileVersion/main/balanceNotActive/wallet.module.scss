@@ -1,0 +1,146 @@
+.walletnotactive {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+    background-color: #161514;
+    flex-direction: column;
+    z-index: 1;
+    margin-top: 50px;
+    border-top: 2px solid;
+}
+
+.yellow {
+    width: 278px;
+    height: 278px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #EE2B0033;
+    filter: blur(50px);
+    z-index: 0;
+    right: 15%;
+    top: -15%;
+}
+
+
+.koshelek {
+    display: flex;
+    gap: 13px;
+    align-items: center;
+    color: #fff;
+    z-index: 1;
+    padding: 40px 0 0 5%;
+
+    p {
+        font-weight: 400;
+        font-size: 14px;
+    }
+}
+
+
+.totalbaltext {
+    width: 100%;
+    color: #FFFFFF99;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20.8px;
+}
+
+.balance {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 29px;
+    z-index: 1;
+    padding: 0 0 0 5%;
+}
+
+.bigN {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 11px;
+    color: #fff;
+    margin: 17px 0 22px 0;
+
+    span {
+        padding: 11px 16px 13px 16px;
+        background-color: #000000;
+        color: #fff;
+        border-radius: 50%;
+        border: 2.75px solid #FFFFFF
+    }
+
+    img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+
+.bigNum {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 42.4px;
+}
+
+.action {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0 0 3%;
+    gap: 5%;
+    z-index: 1;
+
+    a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: #161514;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 10.4px;
+        background-color: #fff;
+        padding: 12px 12%;
+        border-radius: 8px;
+        gap: 10%;
+    }
+}
+
+.fonWomen {
+    position: absolute;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.5) 20%, transparent 50%);
+    background-image: url(../../images/women.jpg);
+    width: 100%;
+    height: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 30%;
+    opacity: 0.5;
+}
+
+.connectButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    
+    a {
+        background: linear-gradient(134.98deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.02) 100%);
+        text-decoration: none;
+        color: #fff;
+        padding: 12px 8%;
+        border-radius: 16px;
+        backdrop-filter: blur(3px);
+    }
+}
+
+// @media (min-width: 460px) and (max-width: 864px) {
+//     .fonWomen {
+//         height: 100%;
+//     }
+// }

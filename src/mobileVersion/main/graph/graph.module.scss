@@ -1,0 +1,126 @@
+.graphContainer {
+    width: 100%;
+    height: 844px;
+    position: relative;
+    z-index: 1;
+}
+
+.yellow {
+    width: 278px;
+    height: 278px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #EE2B0033;
+    filter: blur(50px);
+    z-index: 0;
+    right: 15%;
+    top: -15%;
+}
+
+
+.actions {
+    display: flex;
+    margin-top: 52px;
+    border-top: 1px solid;
+    color: #fff;
+    z-index: 1;
+    padding: 24px 3% 0;
+}
+
+.choose {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.arrowBack {
+    padding: 12px;
+    background-color: #FFFFFF14;
+    border-radius: 16px;
+    z-index: 1;
+
+    span {
+        color: #fff;
+    }
+}
+
+.starBlock {
+    padding: 12px;
+    background-color: #FFFFFF14;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+
+.menu {
+    position: absolute;
+    right: 38%;
+    top: 7%;
+    border: 1px solid #555;
+    background-color: #555;
+    padding: 2%;
+    color: black;
+    border-radius: 15px;
+    cursor: default;
+    opacity: 0;
+    transform: translateY(-10px);
+    visibility: hidden;
+    transition: 0.3s;
+}
+
+.menu.active {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+}
+
+.menulist {
+    width: 100%;
+    list-style-type: none;
+    white-space: nowrap;
+}
+
+.menuitem {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    width: 100%;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+
+.menuitem:hover {
+    background-color: #fff;
+    padding: 5%;
+}
+
+.graph {
+    width: 100%;
+    height: 531px;
+}
+
+.actionButtons {
+    display: flex;
+    margin-top: 24px;
+    align-items: center;
+    justify-content: space-around;
+
+    a {
+        text-decoration: none;
+        color: #fff;
+        padding: 14px 15%;
+        border-radius: 8px;
+    }
+
+    a:first-of-type {
+        background-color: #02C173;
+    }
+
+    a:nth-of-type(2) {
+        background-color: #E11A38;
+    }
+}

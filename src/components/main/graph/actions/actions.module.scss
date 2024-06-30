@@ -1,0 +1,97 @@
+.graphContainer {
+    border-top: 2px solid #555;
+    width: 100%;
+    height: 664px;
+    background-color: #161514;
+    padding: 1.5% 2%;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+
+    div:first-of-type {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.starBlock {
+    padding: 12px;
+    background-color: #FFFFFF14;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.choose {
+    color: #fff;
+    position: relative;
+
+    p {
+        margin-left: 70px;
+        white-space: nowrap;
+    }
+}
+
+.arrowBack {
+    padding: 12px;
+    background-color: #FFFFFF14;
+    border-radius: 16px;
+    
+
+    span {
+        color: #fff;
+    }
+}
+
+.menu {
+    position: absolute;
+    right: 10%;
+    top: 70%;
+    border: 1px solid #555;
+    background-color: #555;
+    padding: 2%;
+    color: black;
+    border-radius: 15px;
+    cursor: default;
+    opacity: 0;
+    transform: translateY(-10px);
+    visibility: hidden;
+    transition: 0.3s;
+}
+
+.menu.active {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+}
+
+.menulist {
+    width: 100%;
+    list-style-type: none;
+    white-space: nowrap;
+}
+
+.menuitem {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    width: 100%;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+
+.menuitem:hover {
+    background-color: #fff;
+    padding: 5%;
+}

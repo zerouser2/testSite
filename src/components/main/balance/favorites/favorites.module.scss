@@ -1,0 +1,33 @@
+.favorites {
+    margin-top: 43px;
+    width: 30%;
+    flex-direction: column; /* Для вертикального выравнивания */
+    align-items: stretch;
+}
+
+.valuta {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.notcoin, .usdt, .dogecoin {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 16px 24px;
+    z-index: 1;
+}
+
+.favText {
+    color: #fff;
+    padding-left: 24px;
+}
+
+@media (max-width: 930px) and (min-width: 864px) {
+    .notcoin, .usdt, .dogecoin {
+        padding: 14px 5%;
+    }
+
+}

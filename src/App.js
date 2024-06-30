@@ -1,23 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import Onboarding from "./components/header/Onboarding";
+import Balance from "./components/main/balance/Balance";
+import Frens from "./components/main/frens/token/Frens";
+import Graph from "./components/main/graph/Graph";
+import TradingViewWidget from "./components/main/graph/TradingViewWidget";
+import Tasks from "./components/main/tasks/Tasks";
+import Header from "./mobileVersion/header/Header";
+import { useMediaQuery } from 'react-responsive';
+import MobileBalance from "./mobileVersion/main/MobileBalance";
+import Favorites from "./mobileVersion/main/favorites/Favorites";
+import Main from "./mobileVersion/main/Main";
+
 
 function App() {
+  const isMobile = useMediaQuery({ query: '(max-width: 864px)' });
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {isMobile ?
+        <>
+          <Header />
+          <Main />
+        </>
+        :
+        <>
+          <Onboarding />
+          <Balance />
+          <Frens />
+          <Graph />
+          <Tasks />
+        </>
+      }
+
     </div>
   );
 }

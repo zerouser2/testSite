@@ -1,0 +1,192 @@
+.main {
+    width: 100%;
+    height: 100%;
+    background-color: #161514;
+    border-top: 2px solid #555;
+    overflow: hidden;
+    position: relative;
+}
+
+.balanceContainer {
+    display: flex;
+    position: relative;
+    padding: 43px 42px 15px 5%;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: #161514;
+    overflow: hidden;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.koshelek {
+    display: flex;
+    gap: 13px;
+    align-items: center;
+    color: #fff;
+    z-index: 1;
+    
+    p {
+        font-weight: 400;
+        font-size: 14px;
+    }
+}
+
+.yellow {
+    width: 278px;
+    height: 278px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #EE2B0033;
+    filter: blur(50px);
+    z-index: 0;
+    top: -25%;
+}
+
+.totalbaltext {
+    width: 100%;
+    color: #FFFFFF99;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20.8px;
+}
+
+.balance {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 29px;
+    z-index: 1;
+}
+
+.bigN {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 11px;
+    color: #fff;
+    margin: 17px 0 22px 0;
+
+    span {
+        padding: 11px 16px 13px 16px;
+        background-color: #000000;
+        color: #fff;
+        border-radius: 50%;
+        border: 2.75px solid #FFFFFF
+    }
+
+    img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+.bigNum {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 42.4px;
+}
+
+.approx {
+    color: #FFFFFF99;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20.8px;
+}
+
+.activities {
+    color: #fff;
+    z-index: 1;
+}
+
+.reward {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    width: 100%;
+    margin: 10px 0 10px 0;
+}
+
+.rewarding {
+    background-color: #262626;
+    padding: 18px 24%;
+    border-radius: 10px;
+}
+
+.time {
+    background-color: #262626;
+    padding: 18px 5%;
+    border-radius: 10px;
+}
+
+.navs {
+    display: flex;
+    gap: 3%;
+    width: 100%;
+    min-width: 300px;
+}
+
+.nav {
+    width: 45%;
+    padding: 12px 20%;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #161514;
+
+    div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2%;
+    }
+}
+
+.tradingButton {
+    display: flex;
+    z-index: 1;
+
+    button {
+        padding: 25px 35px;
+        background: linear-gradient(134.98deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.02) 100%);
+        border-radius: 16px;
+        border-image-source: linear-gradient(272.61deg, rgba(255, 255, 255, 0.2) 2.66%, rgba(255, 255, 255, 0.1) 100%, rgba(255, 255, 255, 0.05) 100%);
+        margin-top: 76px;
+        border: 1px solid #FFFFFF33;
+        white-space: nowrap;
+        color: #fff;
+        font-weight: 400;
+        font-size: 16px;
+        cursor: pointer;
+    }
+}
+
+
+@media (min-width: 380px) and (max-width: 864px) {
+    .rewarding {
+        padding: 18px 26%;
+    }
+}
+
+@media (min-width: 460px) and (max-width: 864px) {
+    .rewarding {
+        padding: 18px 28%;
+    }
+} 
+
+@media (min-width: 510px) and (max-width: 864px) {
+    .rewarding {
+        padding: 18px 30%;
+    }
+}
+
+@media (min-width: 620px) and (max-width: 864px) {
+    .rewarding {
+        padding: 18px 32%;
+    }
+}
+
+@media (min-width: 740px) and (max-width: 864px) {
+    .rewarding {
+        padding: 18px 34%;
+    }
+}

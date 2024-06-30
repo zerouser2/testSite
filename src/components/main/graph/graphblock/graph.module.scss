@@ -1,0 +1,182 @@
+.graphActions {
+    display: flex;
+    margin-top: 36px;
+    gap: 2%;
+    position: relative;
+}
+
+.justGraph {
+    width: 70%;
+    max-width: 900px;
+}
+
+.graph {
+    height: 531.49px;
+}
+
+.actionBlock {
+    width: 42%
+}
+
+.cost {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+
+    div {
+        display: flex;
+        white-space: nowrap;
+    }
+
+}
+
+.bigCost {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+}
+
+.select {
+    padding: 4px 4%;
+    background-color: #FFFFFF14;
+    border-radius: 8px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.dropdown {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 18px;
+}
+
+.profit {
+    color: #02C173;
+    line-height: 20.8px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.amount {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff;
+    background-color: #FFFFFF14;
+    border-radius: 8px;
+    padding: 4px 1%;
+    
+    
+    p {
+        line-height: 20.8px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    input {
+        width: 30%;
+        padding: 0;
+        border-radius: 5px;
+        border: none;
+        text-align: center;
+        background-color: #FFFFFF30;
+    }
+
+    img {
+        width: 18px;
+    }
+}
+
+.positions {
+    color: white;
+    margin-top: 23px;
+}
+
+.money {
+    margin-top: 17px;
+}
+
+.order {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    white-space: nowrap;
+    padding-bottom: 8px;
+
+    div {
+        display: flex;
+        align-items: center;
+        gap: 4%;
+    }
+}
+
+.actionButtons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 240px;
+
+    button {
+        padding: 14px 15%;
+        color: #FFFFFF;
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+        line-height: 20.8px;
+        font-weight: 400;
+    }
+
+    button:first-of-type {
+        background-color: #02C173;
+    }
+
+    button:nth-of-type(2) {
+        background-color: #E11A38;
+    }
+}
+
+.menu {
+    position: absolute;
+    bottom: 56%;
+    right: 0.5%;
+    border: 1px solid #555;
+    background-color: #555;
+    padding: 2%;
+    color: black;
+    border-radius: 15px;
+    cursor: default;
+    opacity: 0;
+    transform: translateY(-10px);
+    visibility: hidden;
+    transition: 0.3s;
+}
+
+.menu.active {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+}
+
+.menulist {
+    width: 100%;
+    list-style-type: none;
+}
+
+.menuitem {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    width: 100%;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 15px;
+    
+}
+
+.menuitem:hover {
+    background-color: #fff;
+    padding: 5%;
+}

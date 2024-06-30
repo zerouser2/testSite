@@ -1,0 +1,61 @@
+.container {
+    display: flex;
+    width: 100%;
+    height: 594px;
+    border-top: 1px solid #555;
+    background-color: #161514;
+    position: relative;
+    z-index: 1;
+}
+
+.referal {
+    margin-left: 4%;
+    margin-top: 2%;
+    width: 33%;
+    position: relative;
+}
+
+.frens {
+    color: #FFFFFF99;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.8px;
+}
+
+.tokenText {
+
+    p:first-of-type {
+        color: #fff;
+        font-size: 40px;
+        line-height: 52px;
+        font-weight: 700;
+    }
+
+    p:nth-of-type(2) {
+        color: #FFFFFFFC;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20.8px;
+    }
+
+    text {  
+        font-weight: 700;
+    }
+}
+
+.tokenButton {
+    
+    margin-top: 249px;
+    
+    button {
+        padding: 4% 10%;
+        white-space: nowrap;
+        color: #fff;
+        border: 1px solid #FFFFFF33;
+        border-radius: 16px;
+        border: none;
+        background: linear-gradient(134.98deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.02) 100%);
+        cursor: pointer;
+        border-image-source: linear-gradient(272.61deg, rgba(255, 255, 255, 0.2) 2.66%, rgba(255, 255, 255, 0.1) 100%, rgba(255, 255, 255, 0.05) 100%);
+    }
+}

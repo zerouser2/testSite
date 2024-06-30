@@ -1,0 +1,15 @@
+.lightBlock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%
+
+}
+
+.lightImg {
+    z-index: 1;
+    img {
+        width: 75px;
+        
+    }
+}
